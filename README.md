@@ -1,4 +1,4 @@
-Powerfull development kit for iOS.
+Address Picker like JD.
 
 ## Requirements
 
