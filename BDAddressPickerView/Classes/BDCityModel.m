@@ -1,7 +1,7 @@
 /**
 MIT License
 
-Copyright (c) 2018 Scott Ban (https://github.com/reference/BDToolKit)
+Copyright (c) 2020 Scott Ban (https://github.com/reference/BDAddressPickerView.git)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

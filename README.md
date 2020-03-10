@@ -1,33 +1,25 @@
-<<<<<<< HEAD
-# BDAddressPickerView
-
-[![CI Status](https://img.shields.io/travis/reference/BDAddressPickerView.svg?style=flat)](https://travis-ci.org/reference/BDAddressPickerView)
-[![Version](https://img.shields.io/cocoapods/v/BDAddressPickerView.svg?style=flat)](https://cocoapods.org/pods/BDAddressPickerView)
-[![License](https://img.shields.io/cocoapods/l/BDAddressPickerView.svg?style=flat)](https://cocoapods.org/pods/BDAddressPickerView)
-[![Platform](https://img.shields.io/cocoapods/p/BDAddressPickerView.svg?style=flat)](https://cocoapods.org/pods/BDAddressPickerView)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Powerfull development kit for iOS.
 
 ## Requirements
 
+* Requires iOS 9.0 or later
+
 ## Installation
 
-BDAddressPickerView is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+BDAddressPickerView is available through [CocoaPods](https://cocoapods.org/pods/BDAddressPickerView). To install it, simply add the following line to your Podfile:
 
-```ruby
+```
+use_frameworks!
+
 pod 'BDAddressPickerView'
 ```
 
-## Author
+## Usage
 
-reference, scottban@126.com
+```
+#import <BDAddressPickerView/BDAddressPickerView.h>
+```
 
 ## License
 
-BDAddressPickerView is available under the MIT license. See the LICENSE file for more info.
-=======
-# BDAddressPickerView
->>>>>>> 907002222b9823ee7e0dd0ee262009faceadc810
+`BDAddressPickerView` is available under the MIT license. See the `LICENSE` file for more info.
