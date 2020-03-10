@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDAddressPickerView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of BDAddressPickerView.'
 
 # This description is used to generate tags and improve search results.
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Usefull tool for objective-c develop.Help yourself in this post.And buy me a cup of coffee.Just kidding.Anyway Where is coffee shop?"
 
   s.homepage         = 'https://github.com/reference/BDAddressPickerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -33,7 +31,7 @@ TODO: Add long description of the pod here.
   s.dependency 'YYModel'
   s.public_header_files = 'BDAddressPickerView/Classes/BDAddressPickerView.h'
   s.source_files = 'BDAddressPickerView/Classes/*'
-  s.resource_bundles = {
-      'BDAddressPickerView' => ['BDAddressPickerView/Res/*.txt']
-  }
+#  s.resource_bundles = {
+#      'BDAddressPickerView' => ['BDAddressPickerView/Res/*.txt']
+#  }
 end
