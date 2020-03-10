@@ -1,16 +1,24 @@
 PODS:
-  - BDAddressPickerView (0.1.0)
+  - BDAddressPickerView (1.0.4):
+    - YYModel
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - BDAddressPickerView (from `../`)
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - YYModel
 
 EXTERNAL SOURCES:
   BDAddressPickerView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BDAddressPickerView: 3068d0632819f87f43f4a4c4684ba4eabb50627b
+  BDAddressPickerView: 9534691850b50fe200ebdd64ec4633b67e22aad5
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: cd3e521b1f3457ebf87de154454b8304a50a09ba
+PODFILE CHECKSUM: 4200e1d0424e1903f009d22c6f4c3f601e1d321e
 
 COCOAPODS: 1.9.0

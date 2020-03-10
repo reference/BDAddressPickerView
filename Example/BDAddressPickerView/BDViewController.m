@@ -7,7 +7,6 @@
 //
 
 #import "BDViewController.h"
-
 @interface BDViewController ()
 
 @end
@@ -26,4 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onPickerAddress:(UIButton *)b
+{
+    
+}
 @end

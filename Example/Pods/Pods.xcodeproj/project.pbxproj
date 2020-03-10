@@ -7,26 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0750CE3103040FF1D146A925228B1567 /* Pods-BDAddressPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0D2290ABE68E96C8306DA9CC82EEBA /* Pods-BDAddressPickerView_Example-dummy.m */; };
-		1B6DD6BB4A11051876D3D91E50C36D11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7CE69EA52564DBA0EA8DC878B52B3FD0 /* Pods-BDAddressPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C7059B24373E14E337E77283BF5EE /* Pods-BDAddressPickerView_Tests-dummy.m */; };
-		831AEF8A2F3A5EA3A93B6B5179626BC0 /* Pods-BDAddressPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B9ED51BFE36D9E56053B12D6671527 /* Pods-BDAddressPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91081D892828810999A3EED2975DD3D4 /* BDAddressPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0928C918145EDBE05A6F85197631AD92 /* BDAddressPickerView-dummy.m */; };
-		96234D1AB6EDDCDE4D19478329A07175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9878F85309988F3B12E8F42B9B3993A9 /* Pods-BDAddressPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4DFB1824A5DA2D962406FDDE4454C3A /* Pods-BDAddressPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B790032E6FB417F4912376E78F5F65 /* BDAddressPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A39F3AFCE2C3A555A66816B1641EACBC /* BDAddressPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9E9A6B47801F45DCDA7411608353EC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		01FCB4546D14ED744653BCDBB20D4CE3 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */; };
+		0A215D50D4AA439D56E702600388660E /* BDAddressPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5650627134A0FF830DC6E4A078652C /* BDAddressPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECE4ECD9B6CAADEF98C5934F747720B /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E6E6BD88437B2A958DD79B20A577DD /* BDProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2672E7BA4D6AA7B73C474726B5A775 /* BDProvinceModel.m */; };
+		1FE6DB79FEE1D17A0CF9C3CDC957ECBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282148AAD970FC1C3A1E44C25E8B0896 /* Foundation.framework */; };
+		3ADE9FAF34FE2F587E7F748648106424 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */; };
+		4CEAC397841BC4FF64AD2FD56517F0EF /* BDAddressViewPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAA3E77F12CEC5FC93C4C2EC52670825 /* BDAddressViewPicker.bundle */; };
+		4FEA09C3DF9A475EA2E8C12907616A56 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52614026343F625276071386BDC2FF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282148AAD970FC1C3A1E44C25E8B0896 /* Foundation.framework */; };
+		52E239823C8D2E49A4B12887A8AD2A2D /* Pods-BDAddressPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F0B10F62CBC2669CE7C1CA9EAA9514 /* Pods-BDAddressPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570549DAFFBA357F4D37D5EE02AD0060 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACE6159D578817E992A5BF52B7FF8CCE /* YYModel.framework */; };
+		58617E5CAB704F4E30BD2D1D17255DC2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E61D17729E1B387F15EBB4AE686975 /* CoreFoundation.framework */; };
+		5FC89DD0FBAE7CD2A923B57557BB64C9 /* BDCountyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CFC448B5569EFE6E9980E0E1350A52 /* BDCountyModel.m */; };
+		638312E8BC5000F92286CF620866FAC2 /* BDAddressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 801BA6A73453E639BB84DB06BD6284C3 /* BDAddressCell.m */; };
+		715D573CB67C84827C880E808ADE155B /* BDTownModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F54E296EDA329DB4290F5B73849BFB /* BDTownModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E0B92B8C50B5E792C8CF0B9B8948280 /* BDTownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5526191D6F56AC3492D38F69FBC0EA /* BDTownModel.m */; };
+		8546CE6990BAFE6722EC0077105A1157 /* BDCityModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A27787D8E9457DC8173F93473990054B /* BDCityModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D791C512DD630AD53C1A09981CB720B /* BDAddressPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA00B14DEEEDD167AF09F6AAC0541AEB /* BDAddressPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C41F48643AEFB65A992A7E071E08F6 /* BDCountyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BB304F10BC800C4A7A89B55E850055 /* BDCountyModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		956AAA15CE4AFD214E97B9A35D93108F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282148AAD970FC1C3A1E44C25E8B0896 /* Foundation.framework */; };
+		9E93ED10AA4C07E13583DC684EA95B7D /* BDAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0736634AB3060FA97D5C7AAB61D3DFA /* BDAddressPickerView.m */; };
+		A6AD201E4A6739A81D0DC965FEF073B5 /* YYModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AE3961C74EBAC2391E8BB813E807E5 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96713812ED321C6930105512319E9CB /* BDAddressPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD61CD185EEDFD74208073F1F67CBAB /* BDAddressPickerView-dummy.m */; };
+		A98F6D9C73B8A7174A400FB8EF69318E /* BDCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0D8AADE8F146A25D8C273941FE23AE /* BDCityModel.m */; };
+		B2E2F63730B385AD8DAA7CB61D1FBF8E /* BDProvinceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD00F8FB8E4C7A86176C4FCDB4F683C3 /* BDProvinceModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6DFB9153F41C722B46154C4CC33A5AC /* Pods-BDAddressPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87847796522C055F4A6992C55CA8146D /* Pods-BDAddressPickerView_Example-dummy.m */; };
+		BD484C8D34C18C178F13CB5DBC77A8E4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */; };
+		C847ED2C6599B2FD1A186890E73F5A6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC1736C9D00CDC3F07C5C2C38C51A30 /* UIKit.framework */; };
+		FF639262FF797D3D862AAF8E59817292 /* BDAddressCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 684A2503D0AFA9E555948B7BB749F306 /* BDAddressCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A72F2EA0A70C7E2727BFCD09490C7F0F /* PBXContainerItemProxy */ = {
+		06B6FC992E9B985A67F4874954134C50 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0B31FBDAE64EC0E1DF98B27CA6452629;
-			remoteInfo = "Pods-BDAddressPickerView_Example";
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
 		};
-		EBFE95678D615C13282754EA2D4AE3C6 /* PBXContainerItemProxy */ = {
+		6ED9335D8B82B225797C756A1BCBE1FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B44807A12996D487A4A591A481D6A0;
+			remoteInfo = YYModel;
+		};
+		B2EA4F04E2943A9AAB202BA24F16CADC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,141 +64,233 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016D2FC4DFD98287148B42BEF518E980 /* Pods-BDAddressPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0928C918145EDBE05A6F85197631AD92 /* BDAddressPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDAddressPickerView-dummy.m"; sourceTree = "<group>"; };
-		1326A1F69BFE32EEAA849EDC1136935C /* Pods-BDAddressPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2E78431458B42EE4D91A11F3515DA775 /* BDAddressPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDAddressPickerView-prefix.pch"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		325B06CD3FD7A5FC90405DBCDDCD5CC4 /* Pods_BDAddressPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDAddressPickerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		384B41822AC5C1B40DBFE31A28C0D728 /* Pods-BDAddressPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3A06E696B0999CB355B93694576FC779 /* Pods-BDAddressPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3BA156984261F7B770DE859E25867FBC /* Pods-BDAddressPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDAddressPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4558CC518B11DA40CD639E6E5AD73218 /* BDAddressPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDAddressPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		496FB0DDE90760C4DD3A1AE1044DC880 /* Pods-BDAddressPickerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Example-Info.plist"; sourceTree = "<group>"; };
-		64B9ED51BFE36D9E56053B12D6671527 /* Pods-BDAddressPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDAddressPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
-		6C0D2290ABE68E96C8306DA9CC82EEBA /* Pods-BDAddressPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDAddressPickerView_Example-dummy.m"; sourceTree = "<group>"; };
-		781528488770F77AF01F9D93AAEE9AD9 /* Pods-BDAddressPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDAddressPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7C330B863F8E3B49173A5C17F7C86D9B /* BDAddressPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BDAddressPickerView-Info.plist"; sourceTree = "<group>"; };
-		837DCB6282C4DC32A3CED981A528179F /* Pods-BDAddressPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		91139BC722BA1818C85B4511E15528C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		95B7952CF38799383F43AE0DB574D4E7 /* Pods_BDAddressPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDAddressPickerView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4C7059B24373E14E337E77283BF5EE /* Pods-BDAddressPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDAddressPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
-		9CBAEAFF394186297159BB899AC18DFE /* Pods-BDAddressPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDAddressPickerView_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A39F3AFCE2C3A555A66816B1641EACBC /* BDAddressPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDAddressPickerView-umbrella.h"; sourceTree = "<group>"; };
-		ACE30A4B18BF90AFC967D6406D449A4F /* Pods-BDAddressPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDAddressPickerView_Tests.modulemap"; sourceTree = "<group>"; };
-		B0A723974B2A5284112B5E175A7F2D88 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		B96EDDA415880DCFC25459CE89286781 /* Pods-BDAddressPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDAddressPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BB3398E963C033A57437F3E87A92F7CA /* BDAddressPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDAddressPickerView.modulemap; sourceTree = "<group>"; };
-		D4CB97EC230D3365F55703C35911D298 /* Pods-BDAddressPickerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Tests-Info.plist"; sourceTree = "<group>"; };
-		D4DFB1824A5DA2D962406FDDE4454C3A /* Pods-BDAddressPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDAddressPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DECC42A34B1D0EC4F3B01A01A9EB4EDB /* BDAddressPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDAddressPickerView.debug.xcconfig; sourceTree = "<group>"; };
-		EC0CD16128382661E213F70B2C073B34 /* Pods-BDAddressPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2B6AF5591D813CD3BE19A0124C59292 /* BDAddressPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDAddressPickerView.release.xcconfig; sourceTree = "<group>"; };
-		FD7D0308E75F574C13F13B3AA837FE29 /* BDAddressPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BDAddressPickerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		03DF3BA4954461A4DB285D3D0FEF7F4E /* BDAddressPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BDAddressPickerView-Info.plist"; sourceTree = "<group>"; };
+		0EEA7A96B4B841C8D876D49A9C27FAA4 /* BDAddressPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDAddressPickerView.debug.xcconfig; sourceTree = "<group>"; };
+		12C8A032FF6E7BBD15B8099DD673157D /* Pods-BDAddressPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		18F0B10F62CBC2669CE7C1CA9EAA9514 /* Pods-BDAddressPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDAddressPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		1C2672E7BA4D6AA7B73C474726B5A775 /* BDProvinceModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDProvinceModel.m; path = BDAddressPickerView/Classes/BDProvinceModel.m; sourceTree = "<group>"; };
+		1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
+		1E5526191D6F56AC3492D38F69FBC0EA /* BDTownModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDTownModel.m; path = BDAddressPickerView/Classes/BDTownModel.m; sourceTree = "<group>"; };
+		1E5650627134A0FF830DC6E4A078652C /* BDAddressPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDAddressPickerView-umbrella.h"; sourceTree = "<group>"; };
+		27BB304F10BC800C4A7A89B55E850055 /* BDCountyModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCountyModel.h; path = BDAddressPickerView/Classes/BDCountyModel.h; sourceTree = "<group>"; };
+		282148AAD970FC1C3A1E44C25E8B0896 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2A570C1EBEEC84E3183E359D4729F019 /* BDAddressPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDAddressPickerView.release.xcconfig; sourceTree = "<group>"; };
+		325B06CD3FD7A5FC90405DBCDDCD5CC4 /* Pods_BDAddressPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDAddressPickerView_Example.framework; path = "Pods-BDAddressPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		335D761CCB0B636E200186F5ADCFBAA3 /* Pods-BDAddressPickerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Example-Info.plist"; sourceTree = "<group>"; };
+		337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		35F358C2284D6045F009E6FDA47BFAF3 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		4558CC518B11DA40CD639E6E5AD73218 /* BDAddressPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDAddressPickerView.framework; path = BDAddressPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490015C2795440CBD8CCC6C277C2349F /* Pods-BDAddressPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDAddressPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		49CFC448B5569EFE6E9980E0E1350A52 /* BDCountyModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDCountyModel.m; path = BDAddressPickerView/Classes/BDCountyModel.m; sourceTree = "<group>"; };
+		4C06972DCD1192AEBD4BB27EAFCD2E45 /* Pods-BDAddressPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDAddressPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		57E61D17729E1B387F15EBB4AE686975 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C397987D97146092E07A8F31E06B6F6 /* BDAddressPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDAddressPickerView-prefix.pch"; sourceTree = "<group>"; };
+		5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		631CCD875CC6415DA46BA4B51741B189 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		684A2503D0AFA9E555948B7BB749F306 /* BDAddressCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAddressCell.h; path = BDAddressPickerView/Classes/BDAddressCell.h; sourceTree = "<group>"; };
+		684BA06054B31D56A291995F1D12CFF9 /* Pods-BDAddressPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDAddressPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AB7F73909F392021D9E85816261FF7D /* BDAddressPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BDAddressPickerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-umbrella.h"; sourceTree = "<group>"; };
+		77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		801BA6A73453E639BB84DB06BD6284C3 /* BDAddressCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDAddressCell.m; path = BDAddressPickerView/Classes/BDAddressCell.m; sourceTree = "<group>"; };
+		81DA769A916AFD6878DA0EC3948024E5 /* YYModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYModel.modulemap; sourceTree = "<group>"; };
+		82BAE36938CDF1A31849FD11EF8B65B9 /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
+		84FE09820F6C6B7FBF9EB5A6417B2847 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87847796522C055F4A6992C55CA8146D /* Pods-BDAddressPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDAddressPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27787D8E9457DC8173F93473990054B /* BDCityModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDCityModel.h; path = BDAddressPickerView/Classes/BDCityModel.h; sourceTree = "<group>"; };
+		A28F3D87D0C2A71C7E15A9938810D2EE /* Pods-BDAddressPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDAddressPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AA00B14DEEEDD167AF09F6AAC0541AEB /* BDAddressPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDAddressPickerView.h; path = BDAddressPickerView/Classes/BDAddressPickerView.h; sourceTree = "<group>"; };
+		AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		ACE6159D578817E992A5BF52B7FF8CCE /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD00F8FB8E4C7A86176C4FCDB4F683C3 /* BDProvinceModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDProvinceModel.h; path = BDAddressPickerView/Classes/BDProvinceModel.h; sourceTree = "<group>"; };
+		BAA3E77F12CEC5FC93C4C2EC52670825 /* BDAddressViewPicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BDAddressViewPicker.bundle; path = BDAddressPickerView/Res/BDAddressViewPicker.bundle; sourceTree = "<group>"; };
+		C1F54E296EDA329DB4290F5B73849BFB /* BDTownModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDTownModel.h; path = BDAddressPickerView/Classes/BDTownModel.h; sourceTree = "<group>"; };
+		C346D5A00150ACAB538A6D858F00500A /* Pods-BDAddressPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDAddressPickerView_Example.modulemap"; sourceTree = "<group>"; };
+		C6E9B7D6AF875350DD8E14BB05F59C05 /* BDAddressPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDAddressPickerView.modulemap; sourceTree = "<group>"; };
+		CCC1736C9D00CDC3F07C5C2C38C51A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYModel.framework; path = YYModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0D8AADE8F146A25D8C273941FE23AE /* BDCityModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDCityModel.m; path = BDAddressPickerView/Classes/BDCityModel.m; sourceTree = "<group>"; };
+		F0736634AB3060FA97D5C7AAB61D3DFA /* BDAddressPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDAddressPickerView.m; path = BDAddressPickerView/Classes/BDAddressPickerView.m; sourceTree = "<group>"; };
+		FBD61CD185EEDFD74208073F1F67CBAB /* BDAddressPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDAddressPickerView-dummy.m"; sourceTree = "<group>"; };
+		FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83F8BA1C0375BB693950BE8453293F55 /* Frameworks */ = {
+		742AA47FA11E63383CFCCED446E1CDAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B6DD6BB4A11051876D3D91E50C36D11 /* Foundation.framework in Frameworks */,
+				956AAA15CE4AFD214E97B9A35D93108F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD0A1BBEEBDA36C1580D535AD24DACB8 /* Frameworks */ = {
+		915778C96072ABE0B806D13C8ACADBA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96234D1AB6EDDCDE4D19478329A07175 /* Foundation.framework in Frameworks */,
+				58617E5CAB704F4E30BD2D1D17255DC2 /* CoreFoundation.framework in Frameworks */,
+				1FE6DB79FEE1D17A0CF9C3CDC957ECBC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8E56EFC7BF2E17E356B0736031424D4 /* Frameworks */ = {
+		E382F834387EB2F60A3CCE634CF94E02 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E9A6B47801F45DCDA7411608353EC1 /* Foundation.framework in Frameworks */,
+				52614026343F625276071386BDC2FF53 /* Foundation.framework in Frameworks */,
+				C847ED2C6599B2FD1A186890E73F5A6B /* UIKit.framework in Frameworks */,
+				570549DAFFBA357F4D37D5EE02AD0060 /* YYModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020B4FAA1240E7B735818F8ABC70188B /* Targets Support Files */ = {
+		1B296AA51FB3CE302C3027C6BEEA42D3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2E8728C252D3F928C6CEB8A691651045 /* Pods-BDAddressPickerView_Example */,
-				586B8984BF2E52EB241C52470888BDC2 /* Pods-BDAddressPickerView_Tests */,
+				57E61D17729E1B387F15EBB4AE686975 /* CoreFoundation.framework */,
+				282148AAD970FC1C3A1E44C25E8B0896 /* Foundation.framework */,
+				CCC1736C9D00CDC3F07C5C2C38C51A30 /* UIKit.framework */,
 			);
-			name = "Targets Support Files";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		1160A3E7DDB233915B0A87C3D331CF2B /* Products */ = {
+		26E89956A0A8283ACC42697FFB0C697F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4558CC518B11DA40CD639E6E5AD73218 /* BDAddressPickerView.framework */,
-				325B06CD3FD7A5FC90405DBCDDCD5CC4 /* Pods_BDAddressPickerView_Example.framework */,
-				95B7952CF38799383F43AE0DB574D4E7 /* Pods_BDAddressPickerView_Tests.framework */,
+				C6E9B7D6AF875350DD8E14BB05F59C05 /* BDAddressPickerView.modulemap */,
+				FBD61CD185EEDFD74208073F1F67CBAB /* BDAddressPickerView-dummy.m */,
+				03DF3BA4954461A4DB285D3D0FEF7F4E /* BDAddressPickerView-Info.plist */,
+				5C397987D97146092E07A8F31E06B6F6 /* BDAddressPickerView-prefix.pch */,
+				1E5650627134A0FF830DC6E4A078652C /* BDAddressPickerView-umbrella.h */,
+				0EEA7A96B4B841C8D876D49A9C27FAA4 /* BDAddressPickerView.debug.xcconfig */,
+				2A570C1EBEEC84E3183E359D4729F019 /* BDAddressPickerView.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BDAddressPickerView";
 			sourceTree = "<group>";
 		};
-		2E8728C252D3F928C6CEB8A691651045 /* Pods-BDAddressPickerView_Example */ = {
+		2CAA6E7887014836B138E4457616B235 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CBAEAFF394186297159BB899AC18DFE /* Pods-BDAddressPickerView_Example.modulemap */,
-				781528488770F77AF01F9D93AAEE9AD9 /* Pods-BDAddressPickerView_Example-acknowledgements.markdown */,
-				EC0CD16128382661E213F70B2C073B34 /* Pods-BDAddressPickerView_Example-acknowledgements.plist */,
-				6C0D2290ABE68E96C8306DA9CC82EEBA /* Pods-BDAddressPickerView_Example-dummy.m */,
-				B96EDDA415880DCFC25459CE89286781 /* Pods-BDAddressPickerView_Example-frameworks.sh */,
-				496FB0DDE90760C4DD3A1AE1044DC880 /* Pods-BDAddressPickerView_Example-Info.plist */,
-				64B9ED51BFE36D9E56053B12D6671527 /* Pods-BDAddressPickerView_Example-umbrella.h */,
-				837DCB6282C4DC32A3CED981A528179F /* Pods-BDAddressPickerView_Example.debug.xcconfig */,
-				384B41822AC5C1B40DBFE31A28C0D728 /* Pods-BDAddressPickerView_Example.release.xcconfig */,
+				81DA769A916AFD6878DA0EC3948024E5 /* YYModel.modulemap */,
+				5DAD4EC20A65E1A985E0F9BEAD9351C1 /* YYModel-dummy.m */,
+				82BAE36938CDF1A31849FD11EF8B65B9 /* YYModel-Info.plist */,
+				35F358C2284D6045F009E6FDA47BFAF3 /* YYModel-prefix.pch */,
+				6B4980500A7814E01E186A9516070B20 /* YYModel-umbrella.h */,
+				1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */,
+				FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		32E15363149ACDCCABE3D45F1D6BA476 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6AB7F73909F392021D9E85816261FF7D /* BDAddressPickerView.podspec */,
+				631CCD875CC6415DA46BA4B51741B189 /* LICENSE */,
+				84FE09820F6C6B7FBF9EB5A6417B2847 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5283CDB89D7F601EA9E2A52E09E60D8F /* Pods-BDAddressPickerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C346D5A00150ACAB538A6D858F00500A /* Pods-BDAddressPickerView_Example.modulemap */,
+				684BA06054B31D56A291995F1D12CFF9 /* Pods-BDAddressPickerView_Example-acknowledgements.markdown */,
+				4C06972DCD1192AEBD4BB27EAFCD2E45 /* Pods-BDAddressPickerView_Example-acknowledgements.plist */,
+				87847796522C055F4A6992C55CA8146D /* Pods-BDAddressPickerView_Example-dummy.m */,
+				A28F3D87D0C2A71C7E15A9938810D2EE /* Pods-BDAddressPickerView_Example-frameworks.sh */,
+				335D761CCB0B636E200186F5ADCFBAA3 /* Pods-BDAddressPickerView_Example-Info.plist */,
+				18F0B10F62CBC2669CE7C1CA9EAA9514 /* Pods-BDAddressPickerView_Example-umbrella.h */,
+				12C8A032FF6E7BBD15B8099DD673157D /* Pods-BDAddressPickerView_Example.debug.xcconfig */,
+				490015C2795440CBD8CCC6C277C2349F /* Pods-BDAddressPickerView_Example.release.xcconfig */,
 			);
 			name = "Pods-BDAddressPickerView_Example";
 			path = "Target Support Files/Pods-BDAddressPickerView_Example";
 			sourceTree = "<group>";
 		};
-		586B8984BF2E52EB241C52470888BDC2 /* Pods-BDAddressPickerView_Tests */ = {
+		55FE6CF581BE8ECAB3BCA22B383AE053 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ACE30A4B18BF90AFC967D6406D449A4F /* Pods-BDAddressPickerView_Tests.modulemap */,
-				3BA156984261F7B770DE859E25867FBC /* Pods-BDAddressPickerView_Tests-acknowledgements.markdown */,
-				1326A1F69BFE32EEAA849EDC1136935C /* Pods-BDAddressPickerView_Tests-acknowledgements.plist */,
-				9A4C7059B24373E14E337E77283BF5EE /* Pods-BDAddressPickerView_Tests-dummy.m */,
-				D4CB97EC230D3365F55703C35911D298 /* Pods-BDAddressPickerView_Tests-Info.plist */,
-				D4DFB1824A5DA2D962406FDDE4454C3A /* Pods-BDAddressPickerView_Tests-umbrella.h */,
-				3A06E696B0999CB355B93694576FC779 /* Pods-BDAddressPickerView_Tests.debug.xcconfig */,
-				016D2FC4DFD98287148B42BEF518E980 /* Pods-BDAddressPickerView_Tests.release.xcconfig */,
+				5283CDB89D7F601EA9E2A52E09E60D8F /* Pods-BDAddressPickerView_Example */,
 			);
-			name = "Pods-BDAddressPickerView_Tests";
-			path = "Target Support Files/Pods-BDAddressPickerView_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A10BFC713F820EE59845CFBB47EEDBD7 /* Development Pods */ = {
+		63A62A08D8DB9FF1C097237CA8D88BDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CB45F7395A8480112D3FCA22DDC62CCE /* BDAddressPickerView */,
+				ACE6159D578817E992A5BF52B7FF8CCE /* YYModel.framework */,
+				1B296AA51FB3CE302C3027C6BEEA42D3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78F67AEE59A1D6DBEA84A3A69ED559CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4558CC518B11DA40CD639E6E5AD73218 /* BDAddressPickerView.framework */,
+				325B06CD3FD7A5FC90405DBCDDCD5CC4 /* Pods_BDAddressPickerView_Example.framework */,
+				E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AEA6E70374E3B540504DB128F5AD5D /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA08A279C9FB0BF0BBFD95892635503B /* NSObject+YYModel.h */,
+				77BB4F016C3C8115496745004A1DCDB4 /* NSObject+YYModel.m */,
+				0018C5A02B1185AD57C32D7D35318856 /* YYClassInfo.h */,
+				337DA63B3DA00CFCCB8A533965DF2871 /* YYClassInfo.m */,
+				D5B0C0EE41A774C51534A28ACFDF123D /* YYModel.h */,
+				2CAA6E7887014836B138E4457616B235 /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		B60A24E99C7BC64D4CC1174DF7B660DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAA3E77F12CEC5FC93C4C2EC52670825 /* BDAddressViewPicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B8F85284B1B814132C0481402B73FFA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C719B8222FC4AAD07B76A0975EE826A3 /* BDAddressPickerView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C719B8222FC4AAD07B76A0975EE826A3 /* BDAddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CB45F7395A8480112D3FCA22DDC62CCE /* BDAddressPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				DB8A75379D023E29525026F72D2D5397 /* Pod */,
-				ED3C9A709716974A2B86A12D035D7B71 /* Support Files */,
+				684A2503D0AFA9E555948B7BB749F306 /* BDAddressCell.h */,
+				801BA6A73453E639BB84DB06BD6284C3 /* BDAddressCell.m */,
+				AA00B14DEEEDD167AF09F6AAC0541AEB /* BDAddressPickerView.h */,
+				F0736634AB3060FA97D5C7AAB61D3DFA /* BDAddressPickerView.m */,
+				A27787D8E9457DC8173F93473990054B /* BDCityModel.h */,
+				EE0D8AADE8F146A25D8C273941FE23AE /* BDCityModel.m */,
+				27BB304F10BC800C4A7A89B55E850055 /* BDCountyModel.h */,
+				49CFC448B5569EFE6E9980E0E1350A52 /* BDCountyModel.m */,
+				AD00F8FB8E4C7A86176C4FCDB4F683C3 /* BDProvinceModel.h */,
+				1C2672E7BA4D6AA7B73C474726B5A775 /* BDProvinceModel.m */,
+				C1F54E296EDA329DB4290F5B73849BFB /* BDTownModel.h */,
+				1E5526191D6F56AC3492D38F69FBC0EA /* BDTownModel.m */,
+				32E15363149ACDCCABE3D45F1D6BA476 /* Pod */,
+				B60A24E99C7BC64D4CC1174DF7B660DF /* Resources */,
+				26E89956A0A8283ACC42697FFB0C697F /* Support Files */,
 			);
 			name = BDAddressPickerView;
 			path = ../..;
@@ -180,70 +300,55 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A10BFC713F820EE59845CFBB47EEDBD7 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1160A3E7DDB233915B0A87C3D331CF2B /* Products */,
-				020B4FAA1240E7B735818F8ABC70188B /* Targets Support Files */,
+				B8F85284B1B814132C0481402B73FFA6 /* Development Pods */,
+				63A62A08D8DB9FF1C097237CA8D88BDC /* Frameworks */,
+				F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */,
+				78F67AEE59A1D6DBEA84A3A69ED559CA /* Products */,
+				55FE6CF581BE8ECAB3BCA22B383AE053 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		F8EF2200BE9FEC07CF94B1BF0280D61A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				A4AEA6E70374E3B540504DB128F5AD5D /* YYModel */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DB8A75379D023E29525026F72D2D5397 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				FD7D0308E75F574C13F13B3AA837FE29 /* BDAddressPickerView.podspec */,
-				91139BC722BA1818C85B4511E15528C0 /* LICENSE */,
-				B0A723974B2A5284112B5E175A7F2D88 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		ED3C9A709716974A2B86A12D035D7B71 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BB3398E963C033A57437F3E87A92F7CA /* BDAddressPickerView.modulemap */,
-				0928C918145EDBE05A6F85197631AD92 /* BDAddressPickerView-dummy.m */,
-				7C330B863F8E3B49173A5C17F7C86D9B /* BDAddressPickerView-Info.plist */,
-				2E78431458B42EE4D91A11F3515DA775 /* BDAddressPickerView-prefix.pch */,
-				A39F3AFCE2C3A555A66816B1641EACBC /* BDAddressPickerView-umbrella.h */,
-				DECC42A34B1D0EC4F3B01A01A9EB4EDB /* BDAddressPickerView.debug.xcconfig */,
-				F2B6AF5591D813CD3BE19A0124C59292 /* BDAddressPickerView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BDAddressPickerView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3A894487A2BFF118C8BA52EF89683EE3 /* Headers */ = {
+		8BE436C040C5B5C3E4C10E4E5EB7D4DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9878F85309988F3B12E8F42B9B3993A9 /* Pods-BDAddressPickerView_Tests-umbrella.h in Headers */,
+				52E239823C8D2E49A4B12887A8AD2A2D /* Pods-BDAddressPickerView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E90D099121189E83708A636AE331E16 /* Headers */ = {
+		CEB6BBBF5EBFD0C534B9CD1B2FF42CA1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831AEF8A2F3A5EA3A93B6B5179626BC0 /* Pods-BDAddressPickerView_Example-umbrella.h in Headers */,
+				4FEA09C3DF9A475EA2E8C12907616A56 /* NSObject+YYModel.h in Headers */,
+				0ECE4ECD9B6CAADEF98C5934F747720B /* YYClassInfo.h in Headers */,
+				A6AD201E4A6739A81D0DC965FEF073B5 /* YYModel-umbrella.h in Headers */,
+				A6AE3961C74EBAC2391E8BB813E807E5 /* YYModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DD21976F6405180E973A5FE6C5D6D61 /* Headers */ = {
+		D14A7943627C79AE70354B08BB4065B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2B790032E6FB417F4912376E78F5F65 /* BDAddressPickerView-umbrella.h in Headers */,
+				FF639262FF797D3D862AAF8E59817292 /* BDAddressCell.h in Headers */,
+				0A215D50D4AA439D56E702600388660E /* BDAddressPickerView-umbrella.h in Headers */,
+				8D791C512DD630AD53C1A09981CB720B /* BDAddressPickerView.h in Headers */,
+				8546CE6990BAFE6722EC0077105A1157 /* BDCityModel.h in Headers */,
+				90C41F48643AEFB65A992A7E071E08F6 /* BDCountyModel.h in Headers */,
+				B2E2F63730B385AD8DAA7CB61D1FBF8E /* BDProvinceModel.h in Headers */,
+				715D573CB67C84827C880E808ADE155B /* BDTownModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,54 +357,55 @@
 /* Begin PBXNativeTarget section */
 		0B31FBDAE64EC0E1DF98B27CA6452629 /* Pods-BDAddressPickerView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC166C66E7B241F158F6A27F8D603BDF /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Example" */;
+			buildConfigurationList = 9183AF5B3710879FB11148AFD8C962CD /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Example" */;
 			buildPhases = (
-				3E90D099121189E83708A636AE331E16 /* Headers */,
-				272D7D29636B1B45AC57B2AB5E61C10E /* Sources */,
-				E8E56EFC7BF2E17E356B0736031424D4 /* Frameworks */,
-				58F78310ACAAABBFD46325EC54967362 /* Resources */,
+				8BE436C040C5B5C3E4C10E4E5EB7D4DF /* Headers */,
+				9E1B32D8F414726A3EB2A80685233EFD /* Sources */,
+				742AA47FA11E63383CFCCED446E1CDAE /* Frameworks */,
+				9834F0951B1F427EDB1FD565787B7901 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				314F2AB0AAB88892A721C32E133AAC9B /* PBXTargetDependency */,
+				DE5E13F16AF60ADB90031AD2D8E3BCB7 /* PBXTargetDependency */,
+				BC57D613BB1CD11527F88746EA3C6B62 /* PBXTargetDependency */,
 			);
 			name = "Pods-BDAddressPickerView_Example";
 			productName = "Pods-BDAddressPickerView_Example";
 			productReference = 325B06CD3FD7A5FC90405DBCDDCD5CC4 /* Pods_BDAddressPickerView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		714403B552BD72471E2F09FF593FB353 /* Pods-BDAddressPickerView_Tests */ = {
+		84B44807A12996D487A4A591A481D6A0 /* YYModel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F840E1D64BCD64CBE42A16AA56F6832E /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Tests" */;
+			buildConfigurationList = 3CBA16E0DA77155DC7EFB6EF149CF2D8 /* Build configuration list for PBXNativeTarget "YYModel" */;
 			buildPhases = (
-				3A894487A2BFF118C8BA52EF89683EE3 /* Headers */,
-				0FBF9DDA37DA0CEC0CBC3B85BB48ADE9 /* Sources */,
-				CD0A1BBEEBDA36C1580D535AD24DACB8 /* Frameworks */,
-				6D4DC76FBCFF19525CBABA8026DBDB42 /* Resources */,
+				CEB6BBBF5EBFD0C534B9CD1B2FF42CA1 /* Headers */,
+				FBB52D21B814222EC51F68164CB2EF98 /* Sources */,
+				915778C96072ABE0B806D13C8ACADBA0 /* Frameworks */,
+				9AF3689001508DCDDBCF930EFEB52381 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				88FE0444E63DAB9DF1313BFB4685DF76 /* PBXTargetDependency */,
 			);
-			name = "Pods-BDAddressPickerView_Tests";
-			productName = "Pods-BDAddressPickerView_Tests";
-			productReference = 95B7952CF38799383F43AE0DB574D4E7 /* Pods_BDAddressPickerView_Tests.framework */;
+			name = YYModel;
+			productName = YYModel;
+			productReference = E460D5B0416D36F66EE8EC89E5D2FA0A /* YYModel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD1FE0026278BDC0D2869B6BCC1602F5 /* BDAddressPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01F983F286B07CA6D6C2F6E0722096F2 /* Build configuration list for PBXNativeTarget "BDAddressPickerView" */;
+			buildConfigurationList = 099F61C8AEAE875591FE8E662999ACE3 /* Build configuration list for PBXNativeTarget "BDAddressPickerView" */;
 			buildPhases = (
-				7DD21976F6405180E973A5FE6C5D6D61 /* Headers */,
-				7CE2A3E688DC85D7A5CBCD87F2FC0D2F /* Sources */,
-				83F8BA1C0375BB693950BE8453293F55 /* Frameworks */,
-				0CF53F2D3DD897CA217373AD9AC80648 /* Resources */,
+				D14A7943627C79AE70354B08BB4065B1 /* Headers */,
+				FB675906218FB2F36B875299C44DC67E /* Sources */,
+				E382F834387EB2F60A3CCE634CF94E02 /* Frameworks */,
+				2B2181C219B029F65C3361E015CF828B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B0900887D8F1FF90B37B437F3489DC57 /* PBXTargetDependency */,
 			);
 			name = BDAddressPickerView;
 			productName = BDAddressPickerView;
@@ -324,33 +430,34 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1160A3E7DDB233915B0A87C3D331CF2B /* Products */;
+			productRefGroup = 78F67AEE59A1D6DBEA84A3A69ED559CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DD1FE0026278BDC0D2869B6BCC1602F5 /* BDAddressPickerView */,
 				0B31FBDAE64EC0E1DF98B27CA6452629 /* Pods-BDAddressPickerView_Example */,
-				714403B552BD72471E2F09FF593FB353 /* Pods-BDAddressPickerView_Tests */,
+				84B44807A12996D487A4A591A481D6A0 /* YYModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0CF53F2D3DD897CA217373AD9AC80648 /* Resources */ = {
+		2B2181C219B029F65C3361E015CF828B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CEAC397841BC4FF64AD2FD56517F0EF /* BDAddressViewPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9834F0951B1F427EDB1FD565787B7901 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58F78310ACAAABBFD46325EC54967362 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D4DC76FBCFF19525CBABA8026DBDB42 /* Resources */ = {
+		9AF3689001508DCDDBCF930EFEB52381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,53 +467,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FBF9DDA37DA0CEC0CBC3B85BB48ADE9 /* Sources */ = {
+		9E1B32D8F414726A3EB2A80685233EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CE69EA52564DBA0EA8DC878B52B3FD0 /* Pods-BDAddressPickerView_Tests-dummy.m in Sources */,
+				B6DFB9153F41C722B46154C4CC33A5AC /* Pods-BDAddressPickerView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		272D7D29636B1B45AC57B2AB5E61C10E /* Sources */ = {
+		FB675906218FB2F36B875299C44DC67E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0750CE3103040FF1D146A925228B1567 /* Pods-BDAddressPickerView_Example-dummy.m in Sources */,
+				638312E8BC5000F92286CF620866FAC2 /* BDAddressCell.m in Sources */,
+				A96713812ED321C6930105512319E9CB /* BDAddressPickerView-dummy.m in Sources */,
+				9E93ED10AA4C07E13583DC684EA95B7D /* BDAddressPickerView.m in Sources */,
+				A98F6D9C73B8A7174A400FB8EF69318E /* BDCityModel.m in Sources */,
+				5FC89DD0FBAE7CD2A923B57557BB64C9 /* BDCountyModel.m in Sources */,
+				12E6E6BD88437B2A958DD79B20A577DD /* BDProvinceModel.m in Sources */,
+				7E0B92B8C50B5E792C8CF0B9B8948280 /* BDTownModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CE2A3E688DC85D7A5CBCD87F2FC0D2F /* Sources */ = {
+		FBB52D21B814222EC51F68164CB2EF98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91081D892828810999A3EED2975DD3D4 /* BDAddressPickerView-dummy.m in Sources */,
+				01FCB4546D14ED744653BCDBB20D4CE3 /* NSObject+YYModel.m in Sources */,
+				BD484C8D34C18C178F13CB5DBC77A8E4 /* YYClassInfo.m in Sources */,
+				3ADE9FAF34FE2F587E7F748648106424 /* YYModel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		314F2AB0AAB88892A721C32E133AAC9B /* PBXTargetDependency */ = {
+		B0900887D8F1FF90B37B437F3489DC57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 6ED9335D8B82B225797C756A1BCBE1FD /* PBXContainerItemProxy */;
+		};
+		BC57D613BB1CD11527F88746EA3C6B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 84B44807A12996D487A4A591A481D6A0 /* YYModel */;
+			targetProxy = 06B6FC992E9B985A67F4874954134C50 /* PBXContainerItemProxy */;
+		};
+		DE5E13F16AF60ADB90031AD2D8E3BCB7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BDAddressPickerView;
 			target = DD1FE0026278BDC0D2869B6BCC1602F5 /* BDAddressPickerView */;
-			targetProxy = EBFE95678D615C13282754EA2D4AE3C6 /* PBXContainerItemProxy */;
-		};
-		88FE0444E63DAB9DF1313BFB4685DF76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-BDAddressPickerView_Example";
-			target = 0B31FBDAE64EC0E1DF98B27CA6452629 /* Pods-BDAddressPickerView_Example */;
-			targetProxy = A72F2EA0A70C7E2727BFCD09490C7F0F /* PBXContainerItemProxy */;
+			targetProxy = B2EA4F04E2943A9AAB202BA24F16CADC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16353B6A3CCE0E2A1053783DBA4EC960 /* Debug */ = {
+		26373C4DEE0EF77A9BD54F2D037A6BEC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 837DCB6282C4DC32A3CED981A528179F /* Pods-BDAddressPickerView_Example.debug.xcconfig */;
+			baseConfigurationReference = FE96AEFC79A5BBB37B813EF66CBABE80 /* YYModel.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -416,28 +536,59 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CBD7BD5037CC5827195C4E52AAA376D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EEA7A96B4B841C8D876D49A9C27FAA4 /* BDAddressPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BDAddressPickerView/BDAddressPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView.modulemap";
+				PRODUCT_MODULE_NAME = BDAddressPickerView;
+				PRODUCT_NAME = BDAddressPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		39B734AD25624E33C202905031F4A0A4 /* Release */ = {
+		568277F2451B54111659C1E1C4713ECC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 384B41822AC5C1B40DBFE31A28C0D728 /* Pods-BDAddressPickerView_Example.release.xcconfig */;
+			baseConfigurationReference = 490015C2795440CBD8CCC6C277C2349F /* Pods-BDAddressPickerView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -451,7 +602,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example.modulemap";
@@ -469,40 +620,7 @@
 			};
 			name = Release;
 		};
-		3A41360572E05DFF0BFCC00BB1D2AD27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A06E696B0999CB355B93694576FC779 /* Pods-BDAddressPickerView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BDAddressPickerView_Tests/Pods-BDAddressPickerView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BDAddressPickerView_Tests/Pods-BDAddressPickerView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -550,18 +668,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -612,7 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -625,9 +744,9 @@
 			};
 			name = Debug;
 		};
-		80DC6688872EA31EE6D293728EFA7AB4 /* Release */ = {
+		A7571DCFE7A45C22811A8828D4479E5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 016D2FC4DFD98287148B42BEF518E980 /* Pods-BDAddressPickerView_Tests.release.xcconfig */;
+			baseConfigurationReference = 12C8A032FF6E7BBD15B8099DD673157D /* Pods-BDAddressPickerView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -639,12 +758,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-BDAddressPickerView_Tests/Pods-BDAddressPickerView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BDAddressPickerView_Tests/Pods-BDAddressPickerView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BDAddressPickerView_Example/Pods-BDAddressPickerView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -653,15 +772,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B6D4D55CD98FD6E4133239E97EC5B3A5 /* Release */ = {
+		C51926E211616073416370FD7850E0DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2B6AF5591D813CD3BE19A0124C59292 /* BDAddressPickerView.release.xcconfig */;
+			baseConfigurationReference = 2A570C1EBEEC84E3183E359D4729F019 /* BDAddressPickerView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,7 +793,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BDAddressPickerView/BDAddressPickerView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView.modulemap";
 				PRODUCT_MODULE_NAME = BDAddressPickerView;
@@ -691,9 +809,9 @@
 			};
 			name = Release;
 		};
-		E9730B18285B0764A2313D93F57FAC7C /* Debug */ = {
+		DE2E4B288AD36CCABEF8A875F9F8D5ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DECC42A34B1D0EC4F3B01A01A9EB4EDB /* BDAddressPickerView.debug.xcconfig */;
+			baseConfigurationReference = 1E19EEE2B95F52035DA08F0A7E564714 /* YYModel.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -704,14 +822,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BDAddressPickerView/BDAddressPickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYModel/YYModel-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BDAddressPickerView/BDAddressPickerView.modulemap";
-				PRODUCT_MODULE_NAME = BDAddressPickerView;
-				PRODUCT_NAME = BDAddressPickerView;
+				MODULEMAP_FILE = "Target Support Files/YYModel/YYModel.modulemap";
+				PRODUCT_MODULE_NAME = YYModel;
+				PRODUCT_NAME = YYModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -725,11 +843,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01F983F286B07CA6D6C2F6E0722096F2 /* Build configuration list for PBXNativeTarget "BDAddressPickerView" */ = {
+		099F61C8AEAE875591FE8E662999ACE3 /* Build configuration list for PBXNativeTarget "BDAddressPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9730B18285B0764A2313D93F57FAC7C /* Debug */,
-				B6D4D55CD98FD6E4133239E97EC5B3A5 /* Release */,
+				2CBD7BD5037CC5827195C4E52AAA376D /* Debug */,
+				C51926E211616073416370FD7850E0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBA16E0DA77155DC7EFB6EF149CF2D8 /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2E4B288AD36CCABEF8A875F9F8D5ED /* Debug */,
+				26373C4DEE0EF77A9BD54F2D037A6BEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -737,26 +864,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC166C66E7B241F158F6A27F8D603BDF /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Example" */ = {
+		9183AF5B3710879FB11148AFD8C962CD /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16353B6A3CCE0E2A1053783DBA4EC960 /* Debug */,
-				39B734AD25624E33C202905031F4A0A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F840E1D64BCD64CBE42A16AA56F6832E /* Build configuration list for PBXNativeTarget "Pods-BDAddressPickerView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A41360572E05DFF0BFCC00BB1D2AD27 /* Debug */,
-				80DC6688872EA31EE6D293728EFA7AB4 /* Release */,
+				A7571DCFE7A45C22811A8828D4479E5F /* Debug */,
+				568277F2451B54111659C1E1C4713ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

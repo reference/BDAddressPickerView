@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BDAddressPickerView.h"
 
 FOUNDATION_EXPORT double BDAddressPickerViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char BDAddressPickerViewVersionString[];
