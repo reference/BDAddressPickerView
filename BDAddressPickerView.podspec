@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDAddressPickerView'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of BDAddressPickerView.'
 
 # This description is used to generate tags and improve search results.
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.public_header_files = 'BDAddressPickerView/Classes/BDAddressPickerView.h'
   s.source_files = 'BDAddressPickerView/Classes/*'
-  ss.resources = "BDAddressPickerView/Res/*.bundle"
+  s.resources = 'BDAddressPickerView/Res/*.bundle'
 end
