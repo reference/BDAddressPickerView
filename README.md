@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BDAddressPickerView
 
 [![CI Status](https://img.shields.io/travis/reference/BDAddressPickerView.svg?style=flat)](https://travis-ci.org/reference/BDAddressPickerView)
@@ -27,3 +28,6 @@ reference, scottban@126.com
 ## License
 
 BDAddressPickerView is available under the MIT license. See the LICENSE file for more info.
+=======
+# BDAddressPickerView
+>>>>>>> 907002222b9823ee7e0dd0ee262009faceadc810
