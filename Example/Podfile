@@ -3,11 +3,11 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'BDAddressPickerView_Example' do
-  pod 'BDAddressPickerView', :path => '../'
+  pod 'BDAddressPickerView', :path => '../BDAddressPickerView/Class/'
 
   target 'BDAddressPickerView_Tests' do
     inherit! :search_paths
 
-    
+    pod 'YYModel'
   end
 end

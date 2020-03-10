@@ -1,0 +1,6 @@
+framework module BDAddressPickerView {
+  umbrella header "BDAddressPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

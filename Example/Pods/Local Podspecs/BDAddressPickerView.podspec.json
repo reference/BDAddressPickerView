@@ -1,0 +1,38 @@
+{
+  "name": "BDAddressPickerView",
+  "version": "0.1.0",
+  "summary": "A short description of BDAddressPickerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/reference/BDAddressPickerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "reference": "scottban@126.com"
+  },
+  "source": {
+    "git": "https://github.com/reference/BDAddressPickerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BDAddressPickerView/Classes/*",
+  "resource_bundles": {
+    "BDAddressPickerView": [
+      "BDAddressPickerView/Res/*.txt"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "YYModel": [
+      "~> 2.3"
+    ]
+  }
+}

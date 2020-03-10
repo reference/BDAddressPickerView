@@ -1,0 +1,6 @@
+framework module Pods_BDAddressPickerView_Example {
+  umbrella header "Pods-BDAddressPickerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

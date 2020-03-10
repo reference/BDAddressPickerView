@@ -1,0 +1,16 @@
+PODS:
+  - BDAddressPickerView (0.1.0)
+
+DEPENDENCIES:
+  - BDAddressPickerView (from `../`)
+
+EXTERNAL SOURCES:
+  BDAddressPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDAddressPickerView: 3068d0632819f87f43f4a4c4684ba4eabb50627b
+
+PODFILE CHECKSUM: cd3e521b1f3457ebf87de154454b8304a50a09ba
+
+COCOAPODS: 1.9.0

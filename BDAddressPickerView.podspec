@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDAddressPickerView'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of BDAddressPickerView.'
 
 # This description is used to generate tags and improve search results.
@@ -28,15 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/reference/BDAddressPickerView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'BDAddressPickerView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BDAddressPickerView' => ['BDAddressPickerView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '9.0'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'YYModel'
+  s.public_header_files = 'BDAddressPickerView/Classes/BDAddressPickerView.h'
+  s.source_files = 'BDAddressPickerView/Classes/*'
+  s.resource_bundles = {
+      'BDAddressPickerView' => ['BDAddressPickerView/Res/*.txt']
+  }
 end
